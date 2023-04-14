@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package clase07e01;
+package clase08e01;
 
 import CuentaBancariaServicio.CuentaBancariaServicio;
 import Entidad.CuentaBancaria;
