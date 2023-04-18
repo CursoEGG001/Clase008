@@ -15,7 +15,7 @@ public class EExtras01 {
     
     public static void main(String[] args) {
         
-        Raices paraRaices = new Raices(-1, 1, 4);
+        Raices paraRaices = new Raices(1, 2, -1);
         ServicioRaices Rc1 = new ServicioRaices();
         double Discriminante = Rc1.getDiscriminante(paraRaices);
         
