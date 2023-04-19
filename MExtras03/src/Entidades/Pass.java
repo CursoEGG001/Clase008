@@ -29,7 +29,7 @@ package Entidades;
  */
 public class Pass {
     
-    private String pass = "Dale1Passs";
+    private String pass = "Zzaafando1";
     private String nombre = "Usuario";
     private int dni = 1234567;
 
