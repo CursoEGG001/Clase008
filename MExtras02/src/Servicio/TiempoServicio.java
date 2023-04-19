@@ -38,8 +38,9 @@ public class TiempoServicio {
                 tiempo.setMinutos(0);
                 tiempo.setHora(tiempo.getHora() + 1);
             }
-            if (tiempo.getHora() == 60) {
+            if (tiempo.getHora() == 24) {
                 tiempo.setHora(0);
+                break;
             }
         }
     }
