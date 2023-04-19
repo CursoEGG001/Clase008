@@ -5,13 +5,27 @@
 package Servicio;
 
 import Pasaje.Tiempo;
+import java.util.Scanner;
 
 /**
  *
  * @author pc
  */
 public class TiempoServicio {
+
     public static void simularPasoDelTiempo(Tiempo tiempo) throws InterruptedException {
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese Horas,Minutos y Segundos:");
+        int h1, m1, s1;
+        do {
+            h1 = leer.nextInt();
+            m1 = leer.nextInt();
+            s1 = leer.nextInt();
+        } while (h1 < 0 || h1 > 23 || m1 < 0 || m1 > 59 || s1 < 0 || s1 > 59);
+        tiempo.setHora(h1);
+        tiempo.setMinutos(m1);
+        tiempo.setSegundos(s1);
+
         while (true) {
             tiempo.imprimirHoraCompleta();
             Thread.sleep(1000);
