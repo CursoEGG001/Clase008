@@ -80,12 +80,13 @@ public class FechaServicio {
             } else {
                 mes++;
             }
-            fecha.setDia(1);
+            fecha.setDia( 1);
             fecha.setMes(mes);
             fecha.setAnio(anio);
         } else {
             fecha.setDia(dia + 1);
         }
+        
         return fecha;
     }
     
