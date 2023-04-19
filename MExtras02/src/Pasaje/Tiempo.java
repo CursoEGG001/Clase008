@@ -29,9 +29,9 @@ public class Tiempo {
     }
 
     public void setHora(int hora) {
-        if (hora < 0 || hora > 23) {
-            throw new IllegalArgumentException("La hora es inválida");
-        }
+//        if (hora < 0 || hora > 23) {
+//            throw new IllegalArgumentException("La hora es inválida");
+//        }
         this.hora = hora;
     }
 
@@ -40,9 +40,9 @@ public class Tiempo {
     }
 
     public void setMinutos(int minutos) {
-        if (minutos < 0 || minutos > 59) {
-            throw new IllegalArgumentException("Los minutos son inválidos");
-        }
+//        if (minutos < 0 || minutos > 59) {
+//            throw new IllegalArgumentException("Los minutos son inválidos");
+//        }
         this.minutos = minutos;
     }
 
@@ -51,9 +51,9 @@ public class Tiempo {
     }
 
     public void setSegundos(int segundos) {
-        if (segundos < 0 || segundos > 59) {
-            throw new IllegalArgumentException("Los segundos son inválidos");
-        }
+//        if (segundos < 0 || segundos > 59) {
+//            throw new IllegalArgumentException("Los segundos son inválidos");
+//        }
         this.segundos = segundos;
     }
 

@@ -24,7 +24,7 @@ public class TiempoServicio {
                 tiempo.setMinutos(0);
                 tiempo.setHora(tiempo.getHora() + 1);
             }
-            if (tiempo.getHora() == 24) {
+            if (tiempo.getHora() == 60) {
                 tiempo.setHora(0);
             }
         }

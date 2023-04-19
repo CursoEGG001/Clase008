@@ -17,7 +17,7 @@ public class MExtras02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws InterruptedException {
-        Tiempo tiempo = new Tiempo(12, 30, 0);
+        Tiempo tiempo = new Tiempo(16, 59, 57);
         TiempoServicio.simularPasoDelTiempo(tiempo);
     }
 
