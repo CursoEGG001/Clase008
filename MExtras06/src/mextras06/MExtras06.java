@@ -19,16 +19,18 @@ public class MExtras06 {
      */
     public static void main(String[] args) {
         SopaDeLetras sopa = new SopaDeLetras();
-        sopa.setPalabraAEncontrar("hola");
+        sopa.setPalabraAEncontrar("gato");
 
         SopaDeLetrasServicio servicio = new SopaDeLetrasServicio();
 
-// Buscar la palabra "hola" en la sopa de letras
+// Buscar la palabra "gato" en la sopa de letras
         int[] posicion = servicio.buscarPalabra(sopa);
-        System.out.println(Arrays.toString(posicion));
+        System.out.println(Arrays.toString(posicion) + " se encuentra " + sopa.getPalabraAEncontrar());
+        servicio.imprimirSopaDeLetras(sopa);
 
 // Reemplazar la palabra "hola" por "mundo"
-        servicio.reemplazarPalabra(sopa, "hola", "mundo");
+        System.out.println("Aquí se cambió:");
+        servicio.reemplazarPalabra(sopa, "gato", "mundo");
 
 // Imprimir la sopa de letras
         servicio.imprimirSopaDeLetras(sopa);
